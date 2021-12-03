@@ -76,6 +76,14 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Connected Services\ServiceReference2\WSCategorias.disco" />
+    <None Include="Connected Services\ServiceReference2\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReference2\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReference2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="FormProductos.aspx" />
     <Content Include="FormWeb.aspx" />
     <Content Include="Web.config" />
     <Content Include="Properties\DataSources\System.Data.DataSet.datasource" />
@@ -85,6 +93,18 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ServiceReference2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductos.aspx.cs">
+      <DependentUpon>FormProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormProductos.aspx.designer.cs">
+      <DependentUpon>FormProductos.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormWeb.aspx.cs">
       <DependentUpon>FormWeb.aspx</DependentUpon>
@@ -97,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\ServiceReference1\WSCategorias.wsdl" />
+    <None Include="Connected Services\ServiceReference2\WSCategorias.wsdl" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -110,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -40,5 +40,18 @@ namespace EmpresaProveedor
             adapter.Fill(dsCategorias, "Categories"); 
             return dsCategorias;
         }
+
+        [WebMethod]
+        public DataSet GetProductos()
+        {
+            string selectSQL = "SELECT ProductID, ProductName,CategoryID, UnitPrice,UnitsInStock FROM Products"; 
+            SqlConnection con = new SqlConnection(connectionString); 
+            SqlCommand cmd = new SqlCommand(selectSQL, con); 
+            //SqlDataReader reader;
+            SqlDataAdapter daProductos = new SqlDataAdapter(cmd); 
+            DataSet dsProductos = new DataSet(); 
+            // Fill the same table.
+            daProductos.Fill(dsProductos, "Productos"); return dsProductos; 
+        }
     }
 }

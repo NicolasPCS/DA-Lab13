@@ -52,7 +52,6 @@ C:\Users\Usuario\Documents\Practica13_DA\DA-Lab13\Experiencia2\EmpresaCliente\bi
 C:\Users\Usuario\Documents\Practica13_DA\DA-Lab13\Experiencia2\EmpresaCliente\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Usuario\Documents\Practica13_DA\DA-Lab13\Experiencia2\EmpresaCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Usuario\Documents\Practica13_DA\DA-Lab13\Experiencia2\EmpresaCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Usuario\Documents\Practica13_DA\DA-Lab13\Experiencia2\EmpresaCliente\obj\Debug\EmpresaCliente.csproj.AssemblyReference.cache
 C:\Users\Usuario\Documents\Practica13_DA\DA-Lab13\Experiencia2\EmpresaCliente\obj\Debug\EmpresaCliente.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Documents\Practica13_DA\DA-Lab13\Experiencia2\EmpresaCliente\obj\Debug\EmpresaCliente.csproj.CopyComplete
 C:\Users\Usuario\Documents\Practica13_DA\DA-Lab13\Experiencia2\EmpresaCliente\obj\Debug\EmpresaCliente.dll

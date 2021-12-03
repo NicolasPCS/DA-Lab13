@@ -11,7 +11,7 @@ namespace EmpresaCliente
 {
 
 
-    public partial class FormWeb
+    public partial class FormProductos
     {
 
         /// <summary>
